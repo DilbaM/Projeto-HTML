@@ -1,0 +1,145 @@
+body {
+    background-color: rgba(25, 86, 23, 0.88);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    padding: 10px 0;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.restaurant-name {
+    flex: 2;
+    text-align: center;
+    font-family: 'Della Respira';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 130%;
+}
+
+.cart-icon {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.cart-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Estilo da navegação */
+
+nav {
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.promo {
+  background-color: #f9f9f9;
+  padding: 50px;
+  text-align: center;
+}
+
+.promo h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.promo-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.promo-item {
+  width: 45%;
+  display: flow-root;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rg;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.promo-item:hover {
+  transform: translateY(-5px);
+}
+
+.promo-item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.promo-item-info {
+  flex-grow: 1;
+}
+
+.promo-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.promo-item p {
+  font-size: 14px;
+  color: #000000;
+}
+
+.promo-clique {
+  text-decoration: none;
+  color: #000000;
+}
+
+.original-price {
+  text-decoration: line-through;
+}
+.discount-price {
+  font-size: 20px;  
+  color: #000000;
+  font-weight: bold;
+
+}
