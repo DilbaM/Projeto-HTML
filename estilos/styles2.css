@@ -1,77 +1,151 @@
 body {
-    background-color: rgba(25, 86, 23, 0.88);
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  background-color: rgba(255, 255, 255, 0.88);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 
 header {
-    padding: 10px 0;
+  padding: 5px 0;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-color:rgba(25, 86, 23);
 }
 
 .logo {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-left: 20px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20px;
 }
 
 .logo img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
 }
 
 .restaurant-name {
-    flex: 2;
-    text-align: center;
-    font-family: 'Della Respira';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 130%;
-    color: #000000;
+  flex: 2;
+  text-align: center;
+  font-family: 'Della Respira';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 130%;
+  color: #ffffff;
 }
 
 .cart-icon {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 20px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
 }
 
 .cart-icon img {
-    width: 30px;
-    height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
-/* Estilo da navegação */
 
 nav {
-    background-color: #000000;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+  background-color: #000000;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li {
-    display: inline-block;
-    margin-right: 20px;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.section {
+  padding: 50px;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.division {
+  margin-bottom: 40px;
+}
+
+.division h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-top: 5%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -10px;
+}
+
+.col {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 10px;
+}
+
+.menu-item {
+  width: 100%;
+  margin: 0 0 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+.menu-item img {
+  width: 30%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.menu-item h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-top: 5%;
+}
+
+.menu-item p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
 }
 
 .promo {
@@ -138,9 +212,20 @@ nav ul li a {
 .original-price {
   text-decoration: line-through;
 }
+
 .discount-price {
-  font-size: 20px;  
+  font-size: 20px;
   color: #000000;
   font-weight: bold;
-
 }
+
+
+footer {
+  background-color:rgba(25, 86, 23);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  }

@@ -49,14 +49,17 @@ input[type="password"] {
     text-align: center;
     width: 100%;
     padding: 10px;
-    border-radius: 20px; /* Valor para um arredondamento de borda igual ao do botão */
+    border-radius: 20px; 
     border: 1px solid #ccc;
+}
+.form-group-btn {
+    padding-top: 30%;
+    padding-bottom: 5%;
 }
 
 .btn-entrar {
-    width: 60%;
-    padding: 10px;
-    border-radius: 20px; /* Valor maior para uma borda mais arredondada */
+    padding: 10px 40px;
+    border-radius: 20px; 
     background-color:  #000000;
     color: #fff;
 }
