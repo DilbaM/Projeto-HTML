@@ -148,7 +148,7 @@ nav ul li a {
 }
 
 .promo {
-  margin: 10%;
+  margin: 5% 20%;
   padding: 10px;
   text-align: center;
 }
@@ -185,9 +185,9 @@ nav ul li a {
 }
 
 .promo-item img {
-  width: 100px;
-  height: 100px;
-  margin-right: 20px;
+  width: 10%;
+  height: 10%;
+  margin-right: 10%;
 }
 
 .promo-item-info {
