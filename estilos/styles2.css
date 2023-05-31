@@ -7,7 +7,6 @@ body {
 header {
   top: 0;
   z-index: 9999;
-  background-image: url('https://www.flickr.com/photos/198440646@N03/52938607902/in/dateposted-public/');
 }
 .logo-nome{
   display: flex;
